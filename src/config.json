@@ -1,14 +1,30 @@
 [
 {
-    "Tablename": "basePTeste",
-    "Keycolumn":"data_corrente",
-    "localPath": "C:User/..",
+    "Tablename": "Vendastech",
+    "Keycolumn":"Data",
+    "schema_db":"dt",
+    "localPath": "C:/Users/PC-GAMER/Desktop/curso/Pd/planilhas/vendas_tech.csv",
     "Coluuns_mapping":{
-        "colum1":"coluna_1",
-        "colum2":"coluna_3"
+        "ID_Pedido": "ID_Pedido",
+        "Data": "Data",
+        "Loja": "Loja",
+        "Produto": "Produto",
+        "Preco_Unitario": "Preco_Unitario",
+        "Qtd": "Qtd",
+        "Cliente": "Cliente",
+        "Data_Base": "Data_Base"
     },
     "Transform_process": "default",
-    "dtype":{"column1" : "dtype 1"}
+    "dtype": {
+    "ID_Pedido": "int",
+    "Data": "datetime",
+    "Loja": "varchar",
+    "Produto": "varchar",
+    "Preco_Unitario": "float",
+    "Qtd": "int",
+    "Cliente": "varchar",
+    "Data_Base": "varchar"
+  }
 },
 {
     "Tablename": "basePTeste2",

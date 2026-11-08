@@ -1,0 +1,22 @@
+[
+{
+    "Tablename": "basePTeste",
+    "Keycolumn":"data_corrente",
+    "localPath": "C:User/..",
+    "Coluuns_mapping":{
+        "colum1":"coluna_1",
+        "colum2":"coluna_3"
+    },
+    "Transform_process": "default"
+},
+{
+    "Tablename": "basePTeste2",
+    "Keycolumn":"data_corrente",
+    "localPath": "C:User/..",
+    "Coluuns_mapping":{
+        "colum1":"coluna_1",
+        "colum2":"coluna_3"
+    },
+    "Transform_process": "default"
+}
+]

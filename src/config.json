@@ -7,7 +7,8 @@
         "colum1":"coluna_1",
         "colum2":"coluna_3"
     },
-    "Transform_process": "default"
+    "Transform_process": "default",
+    "dtype":{"column1" : "dtype 1"}
 },
 {
     "Tablename": "basePTeste2",
@@ -17,6 +18,7 @@
         "colum1":"coluna_1",
         "colum2":"coluna_3"
     },
-    "Transform_process": "default"
+    "Transform_process": "default",
+    "dtype":{"column1" : "dtype 1"}
 }
 ]

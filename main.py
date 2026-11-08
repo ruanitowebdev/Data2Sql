@@ -5,4 +5,4 @@ import dotenv
 import os
 config = json.load(open("src/config.json" , encoding="utf-8"))
 
-Update_data("Vendastech", config)
+Update_data("vendastech2", config)

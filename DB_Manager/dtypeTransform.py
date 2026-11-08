@@ -1,4 +1,4 @@
-from sqlalchemy import Integer, String, Float, Boolean, DateTime, Numeric
+from sqlalchemy import Integer, String, Float, Boolean, DateTime, Numeric , Date
 
 # Dicionário que mapeia strings do JSON para instâncias de tipos do SQLAlchemy
 TYPE_MAPPING = {
@@ -14,6 +14,7 @@ TYPE_MAPPING = {
     "bool": Boolean(),
     "boolean": Boolean(),
     "datetime": DateTime(),
+    "date": Date()
 }
 def dtype_columns(element_table):
     columns_type = element_table.get("dtype",{})

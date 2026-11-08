@@ -1,6 +1,6 @@
 [
 {
-    "Tablename": "Vendastech",
+    "Tablename": "vendastech2",
     "Keycolumn":"Data",
     "schema_db":"dt",
     "localPath": "C:/Users/PC-GAMER/Desktop/curso/Pd/planilhas/vendas_tech.csv",
@@ -17,7 +17,7 @@
     "Transform_process": "default",
     "dtype": {
     "ID_Pedido": "int",
-    "Data": "datetime",
+    "Data": "varchar",
     "Loja": "varchar",
     "Produto": "varchar",
     "Preco_Unitario": "float",

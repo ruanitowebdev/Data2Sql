@@ -11,12 +11,18 @@ def connect_database():
     DBSERVER = os.getenv("DBSERVER")
     
     # Tratamento essencial para caracteres especiais na senha e barras no servidor
-    safe_pass = quote_plus(DB_PASS) 
-    safe_server = quote_plus(DBSERVER) 
     
+    connection_string = (
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    f"SERVER={DBSERVER};"
+    f"DATABASE={DATABASE};"
+    f"UID={DB_USER};"
+    f"PWD={DB_PASS};"
+    "TrustServerCertificate=yes;"
+)
     engine = create_engine(
-        f"mssql+pyodbc://{DB_USER}:{safe_pass}@{safe_server}/{DATABASE}"
-        f"?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=no"
+        "mssql+pyodbc:///?odbc_connect="
+        + quote_plus(connection_string)
     )
     return engine
 connect = connect_database

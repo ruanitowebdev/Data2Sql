@@ -1,0 +1,160 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/venv,dotenv,node
+# Edite em https://www.toptal.com/developers/gitignore?templates=venv,dotenv,node
+
+### dotenv ###
+.env
+
+### Nó ###
+# Registros
+registros
+*.registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+relatório.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dados de tempo de execução
+pids
+*.pid
+*.semente
+*.pid.lock
+
+# Diretório para bibliotecas instrumentadas geradas por jscoverage/JSCover
+lib-cov
+
+# Diretório de cobertura usado por ferramentas como o Istanbul
+cobertura
+*.lcov
+
+# cobertura de testes em Nova York
+.nyc_output
+
+# Armazenamento intermediário do Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunhido
+
+# Diretório de dependências do Bower (https://bower.io/)
+componentes_bower
+
+# Configuração do node-waf
+.lock-wscript
+
+# Complementos binários compilados (https://nodejs.org/api/addons.html)
+Compilar/Lançar
+
+# Diretórios de dependências
+node_modules/
+jspm_packages/
+
+# Diretório de dependências do Snowpack (https://snowpack.dev/)
+módulos_web/
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Diretório de cache npm opcional
+.npm
+
+# Cache opcional do eslint
+.eslintcache
+
+# Cache opcional do stylelint
+.stylelintcache
+
+# Cache de micropacotes
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Histórico de REPL opcional
+.histórico_do_repl_do_nó
+
+# Saída de 'npm pack'
+*.tgz
+
+# Arquivo de integridade do fio
+.integridade-do-fio
+
+# Arquivos de variáveis ​​de ambiente dotenv
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# cache do parcel-bundler (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Saída de compilação do Next.js
+.próximo
+fora
+
+# Nuxt.js build / geração de saída
+.nuxt
+dist
+
+# Arquivos Gatsby
+.cache/
+# Comente na linha pública se o seu projeto usa Gatsby e não Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# saída de compilação do vuepress
+.vuepress/dist
+
+# Diretório temporário e de cache do Vuepress v2.x
+.temp
+
+# Arquivos de cache e gerados do Docusaurus
+.docusaurus
+
+# Diretórios sem servidor
+.serverless/
+
+# Cache da caixa de fusíveis
+.caixa de fusíveis/
+
+# Arquivos locais do DynamoDB
+.dynamodb/
+
+# Arquivo de porta TernJS
+.tern-port
+
+# Armazena as versões do VSCode usadas para testar extensões do VSCode
+.vscode-teste
+
+# fio v2
+.yarn/cache
+.fio/desconectado
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Patch de Nó ###
+# Diretórios Webpack sem servidor
+.webpack/
+
+# Cache opcional do stylelint
+
+# Compilar/gerar saída do SvelteKit
+.svelte-kit
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]em
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[L]ocal
+[Ss]scripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# Fim de https://www.toptal.com/developers/gitignore/api/venv,dotenv,node

@@ -10,9 +10,4 @@ import dotenv
 import os
 config = json.load(open("src/config.json" , encoding="utf-8"))
 
-engine = connect()
-base = getbase("vendastech2", config)
-df = read_dataset(base)
-drop_duplicated(df=df  , engine=engine , element_table=base)
-
 Update_data("vendastech2", config)

@@ -6,7 +6,7 @@
     "localPath": "C:/Users/PC-GAMER/Desktop/curso/Pd/planilhas/vendas_tech.csv",
     "Coluuns_mapping":{
         "ID_Pedido": "ID_Pedido",
-        "Data": "Data",
+        "Data": "datetime",
         "Loja": "Loja",
         "Produto": "Produto",
         "Preco_Unitario": "Preco_Unitario",
@@ -17,7 +17,7 @@
     "Transform_process": "default",
     "dtype": {
     "ID_Pedido": "int",
-    "Data": "varchar",
+    
     "Loja": "varchar",
     "Produto": "varchar",
     "Preco_Unitario": "float",
@@ -27,14 +27,23 @@
   }
 },
 {
-    "Tablename": "basePTeste2",
-    "Keycolumn":"data_corrente",
-    "localPath": "C:User/..",
+    "Tablename": "iotdados",
+    "Keycolumn":"created_at",
+    "schema_db":"dt",
+    "localPath": "C:\\Users\\PC-GAMER\\Downloads\\dados_iot_analise.csv",
     "Coluuns_mapping":{
-        "colum1":"coluna_1",
-        "colum2":"coluna_3"
+        "id": "id",
+        "created_at":"created_at",
+        "temperatura":"temperatura",
+        "umidade": "umidade",
+        "Medicao_de_gas":"Medicao_de_gas"
     },
     "Transform_process": "default",
-    "dtype":{"column1" : "dtype 1"}
+    "dtype":{
+        "id": "int",
+        
+        "temperatura":"float",
+        "umidade": "float",
+        "Medicao_de_gas":"float"}
 }
 ]

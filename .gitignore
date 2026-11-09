@@ -2,7 +2,10 @@
 # Edite em https://www.toptal.com/developers/gitignore?templates=venv,dotenv,node
 
 ### dotenv ###
+# Variáveis de ambiente
 .env
+.env.*
+!.env.example
 
 ### Nó ###
 # Registros

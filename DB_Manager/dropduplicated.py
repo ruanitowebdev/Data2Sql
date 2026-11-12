@@ -44,5 +44,6 @@ def drop_duplicated(df, engine, element_table):
                 ).to_pydatetime()
             }
         )
+        conn.commit()
 
     print(f"Registros removidos: {result.rowcount}")
